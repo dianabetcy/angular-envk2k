@@ -1,4 +1,12 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+    <a routerLink="/createFunction" routerLinkActive="active"
+      >Create Function</a
+    >
+    <a routerLink="/stringReversal" routerLinkActive="active"
+      >String Reversal</a
+    >
+    <a routerLink="/userList" routerLinkActive="active">User List Function</a>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
